@@ -16,3 +16,13 @@ body{
     background-size: cover;
 
 }
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px;
+    border-radius: 10px;
+
+}
+ 
