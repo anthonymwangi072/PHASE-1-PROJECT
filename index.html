@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,43 +9,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-    <body>
-        
-        <h1>Feeling Hungry?</h1>
-        <h3> Get a random meal by clicking below</h3>
-        <button class="button-primary" id="get_meal">Get meal</button>
-        <div class="container">
-            <div id="meal" class="row meal"></div>
-        </div>
-        <div class="row text-center"></div> 
-        <div class="likes-section">
-            <span id="like-count" class="likes">0 likes</span>
-            <button id="like-button" class="like-button">♥</button>
-          </div>
-          
-        
-        
-        <form id="comment-form">
-            <textarea placeholder="comment"> </textarea>
-        
-            
-          <!-- <button class="comment-button" type="submit">Post</button>  -->
-            
-        </form>
+<body>
 
-        <ul id="comments-list" class="comments">
-            
-          </ul>
-        
+    <h1>Feeling Hungry?</h1>
+    <h3> Get a random meal by clicking below</h3>
+    <button class="button-primary" id="get_meal">Get meal</button>
+    <div class="container">
+        <div id="meal" class="row meal"></div>
+    </div>
+    <div class="row text-center"></div>
+    <div class="likes-section">
+        <span id="like-count" class="likes">0</span> likes
+        <button id="like-button" class="like-button">♥</button>
+    </div>
 
+
+
+    <form id="comment-form">
+        <textarea id="like-comment" placeholder="comment"> </textarea>
         
-        <!-- <button class="button-primary" id="like">like</button> -->
-        <button class="button-primary" id="comment">comment</button>
-        
-        
-        <script src="index.js"></script>
-        
-        
-    </body>
-    
+    </form>
+
+    <ul id="comments-list" class="comments">
+
+    </ul>
+
+
+
+    <!-- <button class="button-primary" id="like">like</button> -->
+    <button class="button-primary" id="comment">comment</button>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
 </html>

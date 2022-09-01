@@ -32,13 +32,28 @@ document.getElementById("comment").addEventListener("click" ,addComment)
 
 function addComment(post) {
  post.preventDefault();
- const commenttext = post.target.value
+ const commentBoxSelector = document.getElementById("like-comment")
+ const commenttext = commentBoxSelector.value
  document.getElementById("comments-list").innerHTML +=`
  <li>${commenttext}</li>
  
 `
-
+commentBoxSelector.value = " ";
 };
+
+document.getElementById("like-button").addEventListener("click" , addlikes)
+
+function addlikes() {
+    let likeCountSelector = document.getElementById("like-count")
+    let currentCount = parseInt(likeCountSelector.innerHTML)
+    currentCount += 1
+    likeCountSelector.innerHTML = currentCount;
+
+    
+}
+
+
+
 
 
 
