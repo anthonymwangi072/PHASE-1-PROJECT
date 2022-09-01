@@ -7,3 +7,8 @@ it allows a user to generate random foods according to the users liking, added f
 the link for the api is;
 https://foodish-api.herokuapp.com/api/
 
+Technologies used;
+HTML
+CSS
+JAVASCRIPT
+FETCH API
