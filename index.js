@@ -7,6 +7,14 @@ const mealContainer = document.getElementById('meal');
 
 
 
+document.getElementById("comment").addEventListener("click" ,addComment)
+
+
+
+
+
+
+
 
 
 
