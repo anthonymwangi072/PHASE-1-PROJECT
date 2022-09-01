@@ -5,3 +5,14 @@ html, body{
     background: white;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+    /* height: 100vh; */
+    background-image: url(./pictures/brook.jpg);
+    background-size: cover;
+
+}
